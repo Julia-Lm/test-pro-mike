@@ -1,0 +1,19 @@
+site_name: My Docs
+repo_url: https://github.com/Julia-Lm/test-pro-mike.git
+repo_name: test-pro-mike
+
+theme:
+  name: material
+  custom_dir: overrides
+
+nav:
+  - Home: "index.md"
+  - Circle: "circle.md"
+  - Triangle: "triangle.md"
+
+plugins:
+  - mike
+
+extra:
+  version:
+    provider: mike
